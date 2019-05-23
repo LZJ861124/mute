@@ -2,7 +2,7 @@
   "name": "Muted",
   "socket": {
     "ip": "127.0.0.1",
-    "port": 5000
+    "port": 4004
   },
   "root": {
     "data": "./.muted/data",

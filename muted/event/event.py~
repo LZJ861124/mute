@@ -45,7 +45,6 @@ class Event:
     CMD_ABBR_LOOK = 'l'
     RECEPTION = 'reception'
     CMD_SAY = 'say'
-    CMD_ECHO='echo'
 
     _queue = []
 

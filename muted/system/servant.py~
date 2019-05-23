@@ -5,7 +5,6 @@ from event.event import Event
 from event.handler import Handler
 from message.message import Message
 
-from system.cmd_echo import CmdEcho
 from system.cmd_look import CmdLook
 from system.cmd_say import CmdSay
 from system.sign_in import SignIn
@@ -26,7 +25,6 @@ class Servant(Handler):
         if not cls._instance:
             cls._instance = Servant()
 
-            CmdEcho(cls._instance)
             CmdLook(cls._instance)
             CmdSay(cls._instance)
             SignIn(cls._instance)
